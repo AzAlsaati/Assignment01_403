@@ -1,0 +1,87 @@
+/* style_movie.css */
+
+    /* Heading style */
+h1 {
+    text-align: center;
+    font-size: 100px;
+    background-color: #db3b3b;
+    padding: 30px;
+    margin: 0px;
+}
+    /* Navigation bar styles */
+.nav {
+
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    border-block: 2px solid black;
+    border-radius: 30px;
+}
+
+.nav li {
+    display: inline;
+    margin: 50px;
+    padding: 140px;
+    /* Adjust the spacing between menu items */
+}
+
+.nav li a {
+    color: black;
+}
+
+p{
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 820px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.Movie-image {
+    display: flex;
+    flex-wrap: wrap;
+    /* Wrap to the next line when the container width is exceeded */
+    justify-content: center;
+    /* Center images horizontally */
+}
+
+.Movie-image img {
+    width: 350px;
+    /* Set the images width */
+    height: 300px;
+    margin: 10px;
+    /* spacing between images */
+    border: 1px solid black;
+}
+
+    /* When hovering an image the image will move to the top for a bit */
+.Movie-image img:hover{
+    position: relative;
+    top: -6px;
+}
+
+
+/* Table styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+
+}
+
+/* Table caption (title) styles */
+caption {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Table headers and cells styles */
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid lightgray;
+}
